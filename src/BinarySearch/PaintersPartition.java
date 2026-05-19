@@ -34,7 +34,7 @@ public class PaintersPartition {
             int painters = countPainters(boards,mid);
             if(painters <= k){
                 result = mid;
-                high = mid
+                high = mid;
             }
             else{
                 low = mid + 1;
